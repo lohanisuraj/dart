@@ -9,6 +9,8 @@ void main(){
   numberSet.add(2);
   numberSet.add(43);
   numberSet.add(34);
+  //it doesnot allow to store the duplicate value
+  numberSet.add(43);
 
   print(numberSet.contains(43));
   numberSet.forEach((num) => print(num));
